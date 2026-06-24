@@ -1,0 +1,38 @@
+from numb3rs import validate
+
+
+def test_valid():
+    assert validate("192.168.1.1") == True
+
+def test_valid_zeros():
+    assert validate("0.0.0.0") == True
+
+def test_valid_max():
+    assert validate("255.255.255.255") == True
+
+def test_invalid_over_255():
+    assert validate("275.3.6.28") == False
+
+def test_invalid_one_over():
+    assert validate("256.0.0.0") == False
+
+def test_invalid_last_byte_over_255():
+    assert validate("1.1.1.256") == False
+
+def test_invalid_letters():
+    assert validate("cat.dog.foo.bar") == False
+
+def test_invalid_too_few_parts():
+    assert validate("1.2.3") == False
+
+def test_invalid_too_many_parts():
+    assert validate("1.2.3.4.5") == False
+
+def test_invalid_empty():
+    assert validate("") == False
+
+def test_invalid_negative():
+    assert validate("-1.0.0.0") == False
+
+def test_invalid_leading_zeros():
+    assert validate("000.001.010.100") == False
