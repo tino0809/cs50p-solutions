@@ -30,6 +30,6 @@ Covers Python fundamentals through advanced topics.
 | `figlet` | Figlet Fonts | Libraries |
 
 ## Certificate
-[View CS50P Certificate](https://cs50.harvard.edu/certificates)
+[View CS50P Certificate]([https://cs50.harvard.edu/certificates](https://cs50.harvard.edu/certificates/ac0b1241-52e0-47b2-8094-57f11486c01b))
 
 **Language:** Python 🐍
