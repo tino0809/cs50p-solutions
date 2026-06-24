@@ -1,7 +1,3 @@
-# cs50p-solutions
-My CS50P problem sets — Harvard's Introduction to Programming with Python
-
-
 # CS50P — Introduction to Programming with Python
 ### Harvard University | Certified 2026
 
@@ -30,6 +26,8 @@ Covers Python fundamentals through advanced topics.
 | `figlet` | Figlet Fonts | Libraries |
 
 ## Certificate
-[View CS50P Certificate]([https://cs50.harvard.edu/certificates](https://cs50.harvard.edu/certificates/ac0b1241-52e0-47b2-8094-57f11486c01b))
+[![CS50P Certificate](https://img.shields.io/badge/Harvard-CS50P%20Certified-crimson?style=for-the-badge&logo=harvard)](https://cs50.harvard.edu/certificates/ac0b1241-52e0-47b2-8094-57f11486c01b)
+
+[🏆 View Certificate](https://cs50.harvard.edu/certificates/ac0b1241-52e0-47b2-8094-57f11486c01b)
 
 **Language:** Python 🐍
