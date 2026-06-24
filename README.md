@@ -1,2 +1,35 @@
 # cs50p-solutions
 My CS50P problem sets — Harvard's Introduction to Programming with Python
+
+
+# CS50P — Introduction to Programming with Python
+### Harvard University | Certified 2026
+
+A complete collection of problem sets from Harvard's CS50P course.
+Covers Python fundamentals through advanced topics.
+
+## Topics Covered
+- Functions & Variables
+- Conditionals & Loops
+- Exceptions & File I/O
+- Regular Expressions
+- Object-Oriented Programming
+- Unit Testing with pytest
+- APIs & Libraries
+
+## Problem Sets
+| Folder | Problem | Topic |
+|--------|---------|-------|
+| `bank` | Bank Account | Conditionals |
+| `camel` | Camel Case | Strings |
+| `bitcoin` | Bitcoin Price | APIs |
+| `fuel` | Fuel Gauge | Exceptions |
+| `game` | Guessing Game | Loops |
+| `grocery` | Grocery List | Dictionaries |
+| `meal` | Meal Time | File I/O |
+| `figlet` | Figlet Fonts | Libraries |
+
+## Certificate
+[View CS50P Certificate](https://cs50.harvard.edu/certificates)
+
+**Language:** Python 🐍
